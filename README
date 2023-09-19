@@ -1,0 +1,33 @@
+Introduction:
+This repository contains automated testing for the ryan air website. The test cover some of the main features encounted when using the site like seaching for flights, selecting seats and filling out passeger info like name and title.
+
+Technologies:
+Javascript
+Jest
+Selenium Webdriver
+
+Requiremnts:
+node.js
+NPM
+
+*clone the repository*
+git clone https://github.com/ConorNaughton19/Coding_Challenge_Sept
+
+*Access project folder*
+cd Coding_Challenge_Sept
+
+*install dependencies*
+npm install
+install WebDriver as well
+
+Usage:
+npm test
+
+TestCases:
+-Test will open Ryanair website
+-Test will fill out flight information and click continue
+-Test will Select hardcoded flights , Fare type and fill in passenger info
+-test will select hardcoded seats from ryanair website and continue to final page.
+
+Notes:
+to use the test script you will need to input empty flight seats in the ryanair.test.js file. Inside of this file you can also edit FLight nums , PAssenger Information  and destination and depature location 
