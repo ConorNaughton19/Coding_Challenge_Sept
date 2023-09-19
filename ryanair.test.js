@@ -32,7 +32,7 @@ const {
           await homePage.acceptCookies();
           await homePage.fillDepartureCity('Dublin');
           await homePage.fillDestinationCity('BCN');
-          await homePage.selectDepartureDate('2023-09-20');
+          await homePage.selectDepartureDate('2023-09-22');
           await homePage.selectReturnDate('2023-09-30');
           await homePage.incrementAdults();
           await homePage.clickSearch();
@@ -68,8 +68,8 @@ const {
 
     it('Should choose seats for the trip thee and the trip back', async () => {
         try {
-          await homePage.selectSeatsForFirstFlight('seat-05E', 'seat-05F');
-          await homePage.selectSeatsForSecondFlight('seat-03E', 'seat-03F');
+          await homePage.selectSeatsForFirstFlight('seat-32B', 'seat-32C');
+          await homePage.selectSeatsForSecondFlight('seat-35B', 'seat-35C');
         } catch (error) {
           console.error('Test failed with error:', error);
           throw error;
