@@ -1,4 +1,4 @@
-Introduction:
+le Introduction:
 This repository contains automated testing for the ryan air website. The test cover some of the main features encounted when using the site like seaching for flights, selecting seats and filling out passeger info like name and title.
 
 Technologies:
@@ -31,3 +31,5 @@ TestCases:
 
 Notes:
 to use the test script you will need to input empty flight seats in the ryanair.test.js file. Inside of this file you can also edit FLight nums , PAssenger Information  and destination and depature location 
+
+**DOCKERFILE can create image with all scripts but will not run tests correctly. Iusse with Chrome Compatability**
