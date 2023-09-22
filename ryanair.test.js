@@ -69,8 +69,8 @@ const {
 
     it('Should choose seats for the trip thee and the trip back', async () => {
         try {
-          await homePage.selectSeatsForFirstFlight('seat-32B', 'seat-32C');
-          await homePage.selectSeatsForSecondFlight('seat-35B', 'seat-35C');
+          await homePage.selectSeatsForFirstFlight('seat-11B', 'seat-11C');
+          await homePage.selectSeatsForSecondFlight('seat-06B', 'seat-06C');
         } catch (error) {
           console.error('Test failed with error:', error);
           throw error;
