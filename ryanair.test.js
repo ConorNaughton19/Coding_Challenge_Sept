@@ -33,8 +33,8 @@ const {
           await homePage.fillDepartureCity('Dublin');
           //had to use Airport code as identifier here
           await homePage.fillDestinationCity('BCN');
-          await homePage.selectDepartureDate('2023-09-22');
-          await homePage.selectReturnDate('2023-09-30');
+          await homePage.selectDepartureDate('2023-10-22');
+          await homePage.selectReturnDate('2023-10-30');
           await homePage.incrementAdults();
           await homePage.clickSearch();
  
